@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+.All {
+    display: flex ;
+    justify-content: space-around ;
+    color: white;   
+}
+.All .picture1,.picture2,.picture3 {
+    width: calc(94% /3);
+    position: relative;
+}
+.All .picture1 .transparency {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(103, 102, 102) ;
+    opacity: 0;
+}
+.All .picture1:hover .transparency {
+    opacity: .4;
+}
+
+.All .picture1 img {
+    filter : grayscale(100%) ;
+    width : 100%; 
+    height : 100%;
+
+}
+.All .picture1 h2:nth-child(5) {
+    text-transform:uppercase;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+.All .picture1 h2:nth-child(3) {
+    text-transform:uppercase;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-weight: 900;
+    opacity: 0;
+}
+.All .picture1 p {
+    position: absolute;
+    width: 75% ;
+    top: 25%;
+    left: 10%;
+    line-height: 1.4;
+    opacity: 0;
+}
+.All .picture1:hover p{
+    opacity: .7;
+}
+.All .picture1:hover img{
+    opacity: 0;
+}
+.All .picture1:hover h2:nth-child(3){
+    opacity: 100%;
+}
+.All .picture1:hover h2:nth-child(5){
+    opacity: 0;
+}
+.All .picture1:hover {
+    background-image: url("https://media.istockphoto.com/photos/close-up-programmer-man-hand-typing-on-keyboard-laptop-for-register-picture-id1055083194?k=20&m=1055083194&s=612x612&w=0&h=iZt_nredtVuTkNVPLZdU-fiYocv52aFHsPc1xDWMjQM=");
+    filter:grayscale(100%) ;
+}
+
+
+
+.All .picture2 .transparency {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(103, 102, 102) ;
+    opacity: 0;
+}
+.All .picture2:hover .transparency {
+    opacity: .4;
+}
+.All .picture3 img {
+    filter:grayscale(100%) ;
+    width: 100%; 
+    height: 100%;
+
+}
+.All .picture3 h2:nth-child(5) {
+    text-transform:uppercase;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+.All .picture3 h2:nth-child(3) {
+    text-transform:uppercase;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    opacity: 0;
+}
+.All .picture3 p {
+    position: absolute;
+    width: 75% ;
+    top: 25%;
+    left: 10%;
+    line-height: 1.4;
+    opacity: 0;
+}
+.All .picture3:hover p{
+    opacity: .7;
+}
+.All .picture3:hover img{
+    opacity: 0;
+}
+.All .picture3:hover h2:nth-child(3){
+    opacity: 100%;
+}
+.All .picture3:hover h2:nth-child(5){
+    opacity: 0;
+}
+.All .picture3:hover {
+    background-image: url("https://media.istockphoto.com/photos/close-up-programmer-man-hand-typing-on-keyboard-laptop-for-register-picture-id1055083194?k=20&m=1055083194&s=612x612&w=0&h=iZt_nredtVuTkNVPLZdU-fiYocv52aFHsPc1xDWMjQM=");
+    filter:grayscale(100%) ;
+}
+
+
+
+
+.All .picture3 .transparency {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(103, 102, 102) ;
+    opacity: 0;
+}
+.All .picture3:hover .transparency {
+    opacity: .4;
+}
+.All .picture2 img {
+    filter:grayscale(100%) ;
+    width: 100%; 
+    height: 100%;
+
+}
+.All .picture2 h2:nth-child(5) {
+    text-transform:uppercase;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+.All .picture2 h2:nth-child(3) {
+    text-transform:uppercase;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    opacity: 0;
+}
+.All .picture2 p {
+    position: absolute;
+    width: 75% ;
+    top: 25%;
+    left: 10%;
+    line-height: 1.4;
+    opacity: 0;
+}
+.All .picture2:hover p{
+    opacity: .7;
+}
+.All .picture2:hover img{
+    opacity: 0;
+}
+.All .picture2:hover h2:nth-child(3){
+    opacity: 100%;
+}
+.All .picture2:hover h2:nth-child(5){
+    opacity: 0;
+}
+.All .picture2:hover {
+    background-image: url("https://media.istockphoto.com/photos/close-up-programmer-man-hand-typing-on-keyboard-laptop-for-register-picture-id1055083194?k=20&m=1055083194&s=612x612&w=0&h=iZt_nredtVuTkNVPLZdU-fiYocv52aFHsPc1xDWMjQM=");
+    filter:grayscale(100%) ;
+}
+
+
